@@ -1,17 +1,22 @@
-let laranjas;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(0)
+    createCanvas(windowWidth, windowHeight);
+  }
+  
+  function draw() {
+    background(255);
 
-}
+    fill(255,0,0)
+    circle(200, 230, 220)
 
-function draw() {
+    fill(0,128,0)
+    circle(900, 230, 220)
 
-	stroke(230);
-	strokeWeight(2);
-	noFill();
-	circle(width / 2, height / 2, height / 4);
+    fill(0,0,255)
+    circle(200, 530, 220)
 
-
-}
+    noFill()
+    stroke((0,0,0))
+    strokeWeight(3)
+    circle(900, 530, 220)
+  }
